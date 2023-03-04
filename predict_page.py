@@ -22,10 +22,10 @@ def show_predict_page():
     
     st.title("Yarn Properties Prediction from Fibre Properties and Yarn Count")
 
-    st.title("""### We need some information for Prediction""")
+    st.write("""### We need some information for Prediction""")
 
    
-    A = st.number_input(label="2.5% span length (mm)",step=3.,format="%.2f")
+    A = st.number_input(label="2.5% span length (mm)",step=1.,format="%.2f")
     B = st.number_input(label="UR (%)",step=1.,format="%.2f")
     C = st.number_input(label="Fineness (ug/inch)",step=1.,format="%.2f")
     D = st.number_input(label="Bundle Strength (cN/tex)",step=1.,format="%.2f")
