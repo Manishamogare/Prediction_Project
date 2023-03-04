@@ -52,7 +52,7 @@ def show_predict_page():
         
         st.table(pd.DataFrame({ 
                                 'Input Properties': ["2.5% span length (mm)", "UR (%)","Fineness (ug/inch)", "Bundle Strength (cN/tex)","Trash content (%)","Yarn Count (tex)"],
-                                'Predicted Values': [A,B,C,D,E,F]
+                                'Input Values': [A,B,C,D,E,F]
                              }))
         
         st.write('#### Output Data : ')
